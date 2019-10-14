@@ -1,0 +1,29 @@
+{
+  "name": "recipe-collection",
+  "version": "1.0.0",
+  "description": "A collection of my favorite recipes",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development && webpack-dev-server --mode development --host 0.0.0.0 --hot --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illusivesunrae/recipes.git"
+  },
+  "author": "Rachel O'Connor",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/illusivesunrae/recipes/issues"
+  },
+  "homepage": "https://github.com/illusivesunrae/recipes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
