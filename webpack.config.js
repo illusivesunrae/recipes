@@ -7,16 +7,12 @@ Copyright (C) 2019 Rachel O'Connor
 SPDX-License-Identifier: BSD-3-Clause`;
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/js/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist/js'),
     libraryTarget: 'var',
     library: 'Component'
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    index: 'index.html'
   },
   module: {
     rules: [

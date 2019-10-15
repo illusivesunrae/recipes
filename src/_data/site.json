@@ -1,0 +1,10 @@
+{
+  "title": "Recipes",
+  "description": "Some of my favorite recipes.",
+  "nav": [
+    {
+      "text": "Recipes",
+      "url": "/recipes/"
+    }
+  ]
+}
